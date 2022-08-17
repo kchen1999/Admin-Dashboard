@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.wrapper {
+    display: grid;
+    grid-template: 1fr 3.5fr / 1fr 4.5fr;
+    height: 100vh;
+}
+
+.header {
+    background-color: white;
+    padding: 12px; 
+    grid-column: 2 / -1; 
+}
+
+.sidebar {
+    grid-row: 1 / -1; 
+    padding: 12px; 
+    background-color: #4B9CD3;
+    color: white;
+}
+
+.main-content {
+    padding: 12px; 
+    background-color: #E8E8E8;
+}
+
