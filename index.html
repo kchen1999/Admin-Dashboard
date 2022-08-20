@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Orbitron:wght@500&display=swap"
+        rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="header">
             <div class="search-container">
+                <img src="/magnify.png" alt="magnify">
                 <input type="text">
             </div>
             <div class="profile-container"></div>
@@ -33,139 +38,179 @@
         <div class="sidebar">
             <div class="dashboard">
                 <ul>
-                    <li>Dashboard</li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Dashboard</span>
+                    </li>
                 </ul>
             </div>
             <div class="sidebar-content1">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Home</span>
+                    </li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Profile</span>
+                    </li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Messages</span>
+                    </li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>History</span>
+                    </li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Tasks</span>
+                    </li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Communities</span>
+                    </li>
                 </ul>
             </div>
             <div class="sidebar-content2">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Settings</span></li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Support</span></li>
+                    <li>
+                        <img src="/alert-circle-outline.png" alt="">
+                        <span>Privacy</span>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="main-content">
+            <span>Your Projects</span>
             <div class="projects">
-                Your Projects
                 <div class="card-container">
                     <div class="left-fill"></div>
-                    <div class="card-title">
-                        Super Cool Project
+                    <div class="card-content">
+                        <h5>Super Cool Project</h5>
+                        <p>Curabitur porttitor dui sit amet massa faucibus, in dapibus diam fringilla. Aenean id condimentum urna. 
+                            Proin vitae massa ut ante iaculis faucibus at lacinia arcu.  
+                        </p>
+                        <div class="btn-links">
+                            <img src="/star-plus-outline.png" alt="star-plus-outline">
+                            <img src="/eye-plus-outline.png" alt="eye-plus-outline">
+                            <img src="/source-fork.png" alt="source-fork">
+                        </div>
                     </div>
-                    <div class="para">Curabitur porttitor dui sit amet massa faucibus, in dapibus diam fringilla. Aenean id condimentum urna. 
-                        Proin vitae massa ut ante iaculis faucibus at lacinia arcu.  
-                    </div>
-                    <div class="btn-links"></div>
                 </div>
                 <div class="card-container">
                     <div class="left-fill"></div>
-                    <div class="card-title">
-                        Less Cool Project
+                    <div class="card-content">
+                        <h5>Less Cool Project</h5>
+                        <p>
+                            Sed sagittis nec velit eget congue. Nam tempor neque 
+                            tortor, ullamcorper porta dolor mollis tristique. Ut dictum vestibulum est, ut consequat libero varius a.
+                        </p>
+                        <div class="btn-links">
+                            <img src="/star-plus-outline.png" alt="star-plus-outline">
+                            <img src="/eye-plus-outline.png" alt="eye-plus-outline">
+                            <img src="/source-fork.png" alt="source-fork">
+                        </div>
                     </div>
-                    <div class="card-para">
-                        Sed sagittis nec velit eget congue. Nam tempor neque 
-                        tortor, ullamcorper porta dolor mollis tristique. Ut dictum vestibulum est, ut consequat libero varius a.
-                    </div>
-                    <div class="btn-links"></div>
                 </div>
                 <div class="card-container">
                     <div class="left-fill"></div>
-                    <div class="card-title">
-                        Impossible App
+                    <div class="card-content">
+                        <h5>Impossible App</h5>
+                        <p>
+                            Nulla efficitur ex et sapien tristique, sit amet tempus ex feugiat. 
+                            Sed eu mi lacinia, interdum neque ut, suscipit velit. Mauris nec rutrum eros, at rutrum libero. 
+                        </p>
+                        <div class="btn-links">
+                            <img src="/star-plus-outline.png" alt="star-plus-outline">
+                            <img src="/eye-plus-outline.png" alt="eye-plus-outline">
+                            <img src="/source-fork.png" alt="source-fork">
+                        </div>
                     </div>
-                    <div class="card-para">
-                        Nulla efficitur ex et sapien tristique, sit amet tempus ex feugiat. 
-                        Sed eu mi lacinia, interdum neque ut, suscipit velit. Mauris nec rutrum eros, at rutrum libero. 
-                    </div>
-                    <div class="btn-links"></div>
                 </div>
                 <div class="card-container">
                     <div class="left-fill"></div>
-                    <div class="card-title"> 
-                        Easy Peasy App
+                    <div class="card-content">
+                        <h5>Easy Peasy App</h5>
+                        <p>
+                            Integer imperdiet nibh nisl, eget sodales nisl sagittis at. 
+                            Nulla tristique volutpat tempus. Vivamus est est, aliquam quis rutrum vitae, molestie non turpis.
+                        </p>
+                        <div class="btn-links">
+                            <img src="/star-plus-outline.png" alt="star-plus-outline">
+                            <img src="/eye-plus-outline.png" alt="eye-plus-outline">
+                            <img src="/source-fork.png" alt="source-fork">
+                        </div>
                     </div>
-                    <div class="card-para">
-                        nteger imperdiet nibh nisl, eget sodales nisl sagittis at. 
-                        Nulla tristique volutpat tempus. Vivamus est est, aliquam quis rutrum vitae, molestie non turpis.
-                    </div>
-                    <div class="btn-links"></div>
                 </div>
                 <div class="card-container">
                     <div class="left-fill"></div>
-                    <div class="card-title">
-                        Ad Blocker
+                    <div class="card-content">
+                        <h5>Ad Blocker</h5>
+                        <p>
+                            Morbi suscipit libero non blandit euismod. Proin justo mauris, laoreet sed urna ut, tempus laoreet erat. 
+                        </p>
+                        <div class="btn-links">
+                            <img src="/star-plus-outline.png" alt="star-plus-outline">
+                            <img src="/eye-plus-outline.png" alt="eye-plus-outline">
+                            <img src="/source-fork.png" alt="source-fork">
+                        </div>
                     </div>
-                    <div class="card-para">
-                        Morbi suscipit libero non blandit euismod. Proin justo mauris, laoreet sed urna ut, tempus laoreet erat. 
-                    </div>
-                    <div class="btn-links"></div>
                 </div>
                 <div class="card-container">
                     <div class="left-fill"></div>
-                    <div class="card-title">
-                        Money Maker
+                    <div class="card-content">
+                        <h5>Money Maker</h5>
+                        <p>
+                            Donec ultrices odio enim, vitae interdum est sagittis id. Suspendisse bibendum et est varius convallis.
+                        </p>
+                        <div class="btn-links">
+                            <img src="/star-plus-outline.png" alt="star-plus-outline">
+                            <img src="/eye-plus-outline.png" alt="eye-plus-outline">
+                            <img src="/source-fork.png" alt="source-fork">
+                        </div>
                     </div>
-                    <div class="card-para">
-                        Donec ultrices odio enim, vitae interdum est sagittis id. Suspendisse bibendum et est varius convallis.
-                    </div>
-                    <div class="btn-links"></div>
                 </div>
             </div>
-            <div class="announcements">
-                Announcements
-                <div class="title">
-                    <div class="para">
-
-                    </div>
-                </div>
-                <div class="title">
-                    <div class="para">
-
-                    </div>
-                </div>
-                <div class="title">
-                    <div class="para">
-
-                    </div>
-                </div>
+            <p>Announcements</p>
+            <div class="announcements-container">
+                <p>Site Maintenance</p>
+                <p>Community Share Day</p>
+                <p>Updated Privacy Policy</p>
             </div>
-            <div class="trending">
-                Trending
+            <p>Trending</p>
+            <div class="trending-container">
                 <ul>
                     <li>
-                        <div>
-                            <p>@tegan<br>World Peace Builder
-                            </p>
-                        </div>
+                        <img src="/alert-octagon.png" alt="">
+                        <p>@tegan<br>World Peace Builder
+                        </p>
+            
                     </li>
                     <li>
-                        <div>
-                            <p>@morgan<br>Super Cool Project</p>
-                        </div>
+                        <img src="/alert-octagon.png" alt="">
+                        <p>@morgan<br>Super Cool Project</p>
+            
                     </li>
                     <li>
-                        <div>
-                            <p>@kendall<br>Life Changing App</p>
-                        </div>
+                        <img src="/alert-octagon.png" alt="">
+                        <p>@kendall<br>Life Changing App</p>
+            
                     </li>
                     <li>
-                        <div>
-                            <p>@alex<br>No Traffic Maker</p>
-                        </div>
+                        <img src="/alert-octagon.png" alt="">
+                        <p>@alex<br>No Traffic Maker</p>
+            
                     </li>
                 </ul>
+            </div> 
             </div>
-        </div>
     </div>
 </body>
 </html>
