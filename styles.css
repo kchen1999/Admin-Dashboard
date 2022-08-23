@@ -13,25 +13,97 @@ li {
 
 .wrapper {
     display: grid;
-    grid-template: 1fr 5fr / 1fr 4fr;
+    grid-template: 1fr 4.5fr / 1fr 4fr;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
 .header {
     background-color: white;
-    padding: 30px; 
+    padding: 4px 30px 2px; 
     grid-column: 2 / -1; 
+    display: grid;
+    grid-template: 2fr 3fr / 2fr 1fr; 
 }
 
 .search-container {
     display: flex;
+    align-items: center; 
     gap: 15px; 
 }
 
-.search-container > img {
+.magnify, .bell {
     height: auto;
     width: 18px; 
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 21px; 
+    align-items: center;
+    padding-left: 40px;
+}
+
+.profile-container > span {
+    font-weight: bold;
+    font-size: 13px; 
+}
+
+.garfield {
+    border-radius: 50%;
+    height: auto;
+    width: 36px; 
+}
+
+input {
+    width: 100%;
+    height: 22px; 
+    border-radius: 8px;
+    background-color: #e2e8f0;
+    border-style: none;
+} 
+
+.intro-container {
+    display: grid;
+    align-items: center ;
+}
+
+.intro-container > ul > li > .garfield {
+    width: 56px; 
+}
+
+.intro-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 6px 0px; 
+}
+
+.intro-greeting {
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+.intro-name {
+    font-weight: bold;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+.btns-container > button {
+    background-color: #4B9CD3;
+    color: white;
+    border-style: none;
+    padding: 7px 21px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 11px;
 }
 
 .sidebar {
@@ -43,7 +115,7 @@ li {
 
 .main-content {
     padding: 20px 24px 40px 18px; 
-    background-color: #E8E8E8;
+    background-color: #e2e8f0;
     display: grid; 
     gap: 16px;
     grid-template: 10px 1fr 10px 1fr / 3fr 1fr; 
