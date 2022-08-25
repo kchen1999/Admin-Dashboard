@@ -30,6 +30,7 @@ li {
     display: flex;
     align-items: center; 
     gap: 15px; 
+
 }
 
 .magnify, .bell {
@@ -205,6 +206,24 @@ input {
 .announcements-container {
     background-color: white;
     border-radius: 8px;
+    padding: 24px 24px; 
+}
+
+.announcement-header {
+    font-size: 11px;
+    font-style: bold;
+    margin-bottom: 3px;
+}
+
+.announcement-para {
+    font-size: 10px;
+    color: gray;
+}
+
+.announcement:not(:last-child) {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: solid #d1d5db;
 }
 
 .garfield {
